@@ -7,6 +7,7 @@ function countLetters(str) {
  var char = noSpace.split('');
  //console.log(char);
  //console.log(char.length);
+
  for (i = 0; i < char.length; i++) {
    if (char[i] in output) {
      output[char[i]] +=1;
